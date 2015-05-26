@@ -14,6 +14,10 @@
 		DB38DC261AC9B0D50006E2D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB38DC251AC9B0D50006E2D8 /* Images.xcassets */; };
 		DB38DC291AC9B0D50006E2D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB38DC271AC9B0D50006E2D8 /* LaunchScreen.xib */; };
 		DB38DC351AC9B0D50006E2D8 /* SwiftNumberGuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38DC341AC9B0D50006E2D8 /* SwiftNumberGuesserTests.swift */; };
+		DB38DC3F1ACD71B50006E2D8 /* NumberEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38DC3E1ACD71B50006E2D8 /* NumberEntry.swift */; };
+		DB38DC411ACD75890006E2D8 /* ComputerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38DC401ACD75890006E2D8 /* ComputerGame.swift */; };
+		DB38DC431ACD75A70006E2D8 /* HumanGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38DC421ACD75A70006E2D8 /* HumanGame.swift */; };
+		DB9188D91ADD2D98000ABBC7 /* DifficultyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9188D81ADD2D98000ABBC7 /* DifficultyEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		DB38DC2E1AC9B0D50006E2D8 /* SwiftNumberGuesserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNumberGuesserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB38DC331AC9B0D50006E2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB38DC341AC9B0D50006E2D8 /* SwiftNumberGuesserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumberGuesserTests.swift; sourceTree = "<group>"; };
+		DB38DC3E1ACD71B50006E2D8 /* NumberEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberEntry.swift; sourceTree = "<group>"; };
+		DB38DC401ACD75890006E2D8 /* ComputerGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerGame.swift; sourceTree = "<group>"; };
+		DB38DC421ACD75A70006E2D8 /* HumanGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanGame.swift; sourceTree = "<group>"; };
+		DB9188D81ADD2D98000ABBC7 /* DifficultyEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,10 @@
 				DB38DC1B1AC9B0D50006E2D8 /* AppDelegate.swift */,
 				DB38DC201AC9B0D50006E2D8 /* ViewController.swift */,
 				DB38DC221AC9B0D50006E2D8 /* Main.storyboard */,
+				DB38DC401ACD75890006E2D8 /* ComputerGame.swift */,
+				DB9188D81ADD2D98000ABBC7 /* DifficultyEntry.swift */,
+				DB38DC421ACD75A70006E2D8 /* HumanGame.swift */,
+				DB38DC3E1ACD71B50006E2D8 /* NumberEntry.swift */,
 				DB38DC251AC9B0D50006E2D8 /* Images.xcassets */,
 				DB38DC271AC9B0D50006E2D8 /* LaunchScreen.xib */,
 				DB38DC1D1AC9B0D50006E2D8 /* SwiftNumberGuesser.xcdatamodeld */,
@@ -216,8 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB38DC211AC9B0D50006E2D8 /* ViewController.swift in Sources */,
+				DB38DC431ACD75A70006E2D8 /* HumanGame.swift in Sources */,
 				DB38DC1C1AC9B0D50006E2D8 /* AppDelegate.swift in Sources */,
 				DB38DC1F1AC9B0D50006E2D8 /* SwiftNumberGuesser.xcdatamodeld in Sources */,
+				DB38DC3F1ACD71B50006E2D8 /* NumberEntry.swift in Sources */,
+				DB38DC411ACD75890006E2D8 /* ComputerGame.swift in Sources */,
+				DB9188D91ADD2D98000ABBC7 /* DifficultyEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				DB38DC3A1AC9B0D50006E2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB38DC3B1AC9B0D50006E2D8 /* Build configuration list for PBXNativeTarget "SwiftNumberGuesserTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				DB38DC3D1AC9B0D50006E2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

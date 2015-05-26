@@ -30,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB008DF81B149349000D5BB6 /* SwiftNumberGuesser.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = SwiftNumberGuesser.playground; path = SwiftNumberGuesser/SwiftNumberGuesser.playground; sourceTree = "<group>"; };
 		DB38DC161AC9B0D50006E2D8 /* SwiftNumberGuesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNumberGuesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB38DC1A1AC9B0D50006E2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB38DC1B1AC9B0D50006E2D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +67,6 @@
 		DB38DC0D1AC9B0D50006E2D8 = {
 			isa = PBXGroup;
 			children = (
-				DB008DF81B149349000D5BB6 /* SwiftNumberGuesser.playground */,
 				DB38DC181AC9B0D50006E2D8 /* SwiftNumberGuesser */,
 				DB38DC311AC9B0D50006E2D8 /* SwiftNumberGuesserTests */,
 				DB38DC171AC9B0D50006E2D8 /* Products */,

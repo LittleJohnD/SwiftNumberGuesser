@@ -1,5 +1,5 @@
 /*
-* A Playground version of SwiftNumberGuesser written for Rook 2015
+* A Playground version of SwiftNumberGuesser written for Ruck 2015
 */
 
 import UIKit
@@ -61,5 +61,5 @@ func differnce(num1: Int, num2: Int) -> Int
 }
 
 
-inputNumbers = (38,100)
+inputNumbers = (67,100)
 guessNumber(inputNumbers.0,inputNumbers.1)

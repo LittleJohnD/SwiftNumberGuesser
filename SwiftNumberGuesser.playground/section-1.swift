@@ -1,7 +1,6 @@
 /*
 * A Playground version of SwiftNumberGuesser written for Ruck 2015
 */
-
 import UIKit
 
 //Change answer here
